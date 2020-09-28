@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Обработка данных форм</title>
+</head>
+<body>
+<div>
+    <form action="/cgi-bin/form.py">
+        <p>Введите id города <input type="text" name="geonameid">
+        <input type="submit"></p>
+    </form>
+</div>
+<hr align='left' width='500' size='1'/>
+<div>
+	<form action="/cgi-bin/form_second.py">
+        <p>Страницу <input type="text" name="page"></p>
+        <p>Количество городов <input type="text" name="amount_citys"></p>
+        <p><input type="submit"></p>
+    </form>
+</div>
+<hr align='left' width='500' size='1'/>
+<div>
+	<form action="/cgi-bin/form_third.py">
+        <p>Первый город <input type="text" name="first_city"></p>
+        <p>Второй город <input type="text" name="second_city"></p>
+        <p><input type="submit"></p>
+    </form>
+</div>
+</div>
+</body>
+</html>
