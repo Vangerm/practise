@@ -9,7 +9,7 @@ def download_list():
 	global citys
 	citys = []
 	dict = {}
-	with open('RU.txt', 'r') as file:
+	with open('RU.txt', 'r', encoding='utf-8') as file:
 		for i in file.read().splitlines():
 			a = i.split('\t')
 			dict['geonameid'] = a[0]
